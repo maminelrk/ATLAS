@@ -1,0 +1,9 @@
+# In requirements.txt
+langchain-community
+langchain-text-splitters
+chromadb
+sentence-transformers
+pypdf
+# Dependencies for running the LLM (Gemma 2B) and TTS (Piper)
+llama-cpp-python
+piper-tts
