@@ -1,0 +1,21 @@
+# ATLAS .gitignore
+
+# 1. LLM / TTS / RAG Large Files (CRITICAL to ignore)
+###################################################
+*.gguf
+/vector_store/
+/tts_models/
+/model_files/
+
+# 2. Python Environment and Secrets
+###################################
+.venv/
+venv/
+*.env
+*.log
+
+# 3. Python/IDE Generated Files
+###############################
+__pycache__/
+*.py[cod]
+*.egg-info/
